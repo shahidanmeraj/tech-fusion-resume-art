@@ -112,35 +112,54 @@ const Contact = () => {
               <CardHeader>
                 <CardTitle className="text-xl text-gradient">فرآیند همکاری</CardTitle>
               </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="flex gap-4">
-                  <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-sm">1</div>
-                  <div>
-                    <h4 className="font-semibold">تحلیل نیاز</h4>
+              <CardContent className="space-y-6">
+                <div className="flex gap-4 group hover:scale-105 transition-smooth">
+                  <div className="relative">
+                    <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-lg glow-effect">
+                      1
+                    </div>
+                    <div className="absolute top-1/2 left-full w-8 h-0.5 bg-gradient-to-r from-primary to-accent transform -translate-y-1/2 opacity-60"></div>
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold mb-1 text-gradient">تحلیل نیاز</h4>
                     <p className="text-sm text-muted-foreground">بررسی دقیق پروژه و ارائه راهکار</p>
                   </div>
                 </div>
 
-                <div className="flex gap-4">
-                  <div className="w-8 h-8 rounded-full bg-accent flex items-center justify-center text-accent-foreground font-bold text-sm">2</div>
-                  <div>
-                    <h4 className="font-semibold">طراحی و برنامه‌ریزی</h4>
+                <div className="flex gap-4 group hover:scale-105 transition-smooth">
+                  <div className="relative">
+                    <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center text-accent-foreground font-bold text-lg glow-effect">
+                      2
+                    </div>
+                    <div className="absolute top-1/2 left-full w-8 h-0.5 bg-gradient-to-r from-accent to-primary transform -translate-y-1/2 opacity-60"></div>
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold mb-1 text-gradient">طراحی و برنامه‌ریزی</h4>
                     <p className="text-sm text-muted-foreground">ایجاد roadmap و timeline پروژه</p>
                   </div>
                 </div>
 
-                <div className="flex gap-4">
-                  <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-sm">3</div>
-                  <div>
-                    <h4 className="font-semibold">پیاده‌سازی</h4>
+                <div className="flex gap-4 group hover:scale-105 transition-smooth">
+                  <div className="relative">
+                    <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-lg glow-effect">
+                      3
+                    </div>
+                    <div className="absolute top-1/2 left-full w-8 h-0.5 bg-gradient-to-r from-primary to-accent transform -translate-y-1/2 opacity-60"></div>
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold mb-1 text-gradient">پیاده‌سازی</h4>
                     <p className="text-sm text-muted-foreground">توسعه و تست با آپدیت مستمر</p>
                   </div>
                 </div>
 
-                <div className="flex gap-4">
-                  <div className="w-8 h-8 rounded-full bg-accent flex items-center justify-center text-accent-foreground font-bold text-sm">4</div>
-                  <div>
-                    <h4 className="font-semibold">تحویل و پشتیبانی</h4>
+                <div className="flex gap-4 group hover:scale-105 transition-smooth">
+                  <div className="relative">
+                    <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center text-accent-foreground font-bold text-lg glow-effect">
+                      4
+                    </div>
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="font-semibold mb-1 text-gradient">تحویل و پشتیبانی</h4>
                     <p className="text-sm text-muted-foreground">تحویل نهایی و پشتیبانی مستمر</p>
                   </div>
                 </div>
